@@ -11,8 +11,8 @@ spec:
         github:
           owner: kevinmarrec
           repo: gitops-cert-level-3-examples
-        labels:
-          - preview-environment
+          labels:
+            - preview-environment
         requeueAfterSeconds: 60
   template:
     metadata:
